@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Real Time Image Identification</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="src/style.css">
+    </head>
+    <body background="img/background.jpg">
+        <center>
+            <h3 class = "btn-primary parent-heading-div">Real Time Image Identefication App
+                        <div class = "btn-primary    col-lg-6 col-md-6 col-sm-6 col-xs-12 heading-div">
+                            We are using Mobilenet as a Model
+                            <br>
+                            <div class = "btn child-heading-div">
+
+                            </div>
+                        </div>
+            </h3>
+        <br>
+            <p class = "btn btn-success result-tag"> Object:
+                <span id = "result-object-tag"></span>
+            </p>
+        <br>
+            <p class = "btn btn-success result-tag"> Accuracy:
+                <span id = "result-object-accuracy"></span>
+            </p>
+        </center>
+        <script src = "src/script.js"></script>
+    </body>
+</html>

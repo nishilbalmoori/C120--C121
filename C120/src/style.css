@@ -1,0 +1,24 @@
+.heading-div{
+    box-shadow: 5px 5px 5px grey;
+    width:100%;
+    height: 100%;
+    font-size: 16px;
+    padding: 20px;
+}.parent-heading-div{
+    margin:0;
+    padding-top:20px;
+    height: 6.25%;
+}
+p{
+    margin-top: 20px;
+    box-shadow: 5px 5px 5px grey;
+}
+canvas{
+    box-shadow: 5px 5px 5px grey;
+    border:5px solid whitesmoke;
+    border-radius: 20px;
+    margin-top:160px;
+}
+body{
+    text-align: center;
+}
